@@ -1,0 +1,98 @@
+#h2{
+    text-shadow: 10px 10px 5px gray;
+    margin-left: 300px;
+}
+#h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#p{
+    margin-top: 5px;
+    margin-right: 200px;
+}
+li{
+    list-style: none;
+}
+
+a { color: blue; } 
+a:hover { color: #00FF00; } /* CSS link hover (green) */
+
+a:active {
+    background: #265301;
+    color: #CDFEAA;
+}
+.activo{
+    text-decoration:none;
+    color:black;
+
+}
+img{
+    width: 150px ;
+    height: 150px;
+}
+
+#secciones{
+    margin-left: 200px ;
+    align-content: center;
+}
+p.dentro{
+    margin-left:80px ;
+}
+/*Header*/
+.general{
+    margin: auto;
+    margin-top: 5px;
+    width: auto;
+    height: 400px;
+}
+.inicio{
+    background-image: url(../assets/hockey_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 10%;
+    background-attachment: unset;
+    height: 20vh;
+    min-height: 20rem;
+    display: flex;
+}
+.encabezado{
+    background-color: black;
+    color:#efefef;
+    font-size: x-large;
+    font-family: 'Trebuchet MS';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    margin-top:5px ;
+}
+.empresa{
+    font-size: xx-large;
+    font-family: 'Lucida Sans';
+}
+#a{
+    padding: 20px 20px 20px 20px;
+}
+.panel-izq{
+    position: absolute;
+    display: inline-block;
+
+}
+.mision{
+    position: absolute;
+    display: inline-block;
+    left: 200px;
+}
+.box{
+    padding:  1rem 5rem 3rem 1rem;
+}
+.logo{
+    position: absolute;
+    left: 50%;
+    top: 260px;
+    margin-left: 25%;
+}
+
+
+
