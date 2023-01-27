@@ -39,6 +39,9 @@ img{
 p.dentro{
     margin-left:80px ;
 }
+p.sangria{
+    text-indent: 40px;
+}
 /*Header*/
 .general{
     margin: auto;
@@ -60,7 +63,7 @@ p.dentro{
     background-color: black;
     color:#efefef;
     font-size: x-large;
-    font-family: 'Trebuchet MS';
+    font-family: cursive, Cochin, Georgia, Times, "Times New Roman", serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,7 +72,7 @@ p.dentro{
 }
 .empresa{
     font-size: xx-large;
-    font-family: 'Lucida Sans';
+    font-family: cursive, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 #a{
     padding: 20px 20px 20px 20px;
@@ -77,12 +80,14 @@ p.dentro{
 .panel-izq{
     position: absolute;
     display: inline-block;
+    font-family: cursive, Cochin, Georgia, Times, "Times New Roman", serif;
 
 }
 .mision{
     position: absolute;
     display: inline-block;
     left: 200px;
+    font-family: cursive, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .box{
     padding:  1rem 5rem 3rem 1rem;
