@@ -14,6 +14,18 @@
 li{
     list-style: none;
 }
+.parrafo{
+    list-style: decimal;
+    margin-bottom: 10px;
+  
+}
+span{
+    color:blueviolet;
+}
+.sub-parrafo{
+    list-style-type: lower-latin;
+    margin-bottom: 20px;
+}
 
 a { color: blue; } 
 a:hover { color: #00FF00; } /* CSS link hover (green) */
@@ -84,9 +96,9 @@ p.sangria{
 
 }
 .mision{
-    position: absolute;
-    display: inline-block;
+    position: relative;
     left: 200px;
+    width: 60%;
     font-family: cursive, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .box{
@@ -98,6 +110,58 @@ p.sangria{
     top: 260px;
     margin-left: 25%;
 }
+footer{
+    background-color: black;
+    color: #00FF00;
+    font-family: cursive, Cochin, Georgia, Times, "Times New Roman", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#lista{
+    align-items: center;
+    width: 80%;
+}
+h1{
+    text-shadow: 3px 5px burlywood;
+}
+.simbol{
+    list-style: circle;
+    margin-bottom: 20%;
+}
+th, td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    
+}
+table,td{
+    border: 1px solid black;
+    margin-bottom: 5%;
+}
+.text-contact{
+    position: relative;
+    left: 200px;
+    font-family: cursive, Cochin, Georgia, Times, "Times New Roman", serif;
+    margin-bottom: 40%;
+    width: 60%;
+}
+.separated{
+margin-bottom: 20%;
+width: 80%;
+}
+.galeria{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+  }
+  
+  .galeria img{
+    max-width: 400px;
+    padding: 1rem;
+    margin-bottom: 30%;
+  }
 
 
 
